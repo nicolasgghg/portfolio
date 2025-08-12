@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Marca pessoal - Nicolas Bernardino</title>
+  <desc id="desc">Símbolo único de núcleo criativo com expansão radial e referência abstrata a "N".</desc>
+
+  <style>
+    .bg { fill: #0f172a; }
+    .core { fill: #06b6d4; }
+    .ray { stroke: #06b6d4; stroke-width: 6; stroke-linecap: round; }
+    .n-shape { stroke: #ffffff; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+    .ring { fill: none; stroke: #06b6d4; stroke-width: 4; opacity: 0.25; }
+  </style>
+
+  <!-- Fundo arredondado -->
+  <rect x="0" y="0" width="200" height="200" rx="36" ry="36" class="bg"/>
+
+  <!-- Anel de base -->
+  <circle cx="100" cy="100" r="70" class="ring"/>
+
+  <!-- Núcleo criativo -->
+  <circle cx="100" cy="100" r="24" class="core"/>
+
+  <!-- Raios de expansão -->
+  <line x1="100" y1="20" x2="100" y2="48" class="ray"/>
+  <line x1="180" y1="100" x2="152" y2="100" class="ray"/>
+  <line x1="100" y1="180" x2="100" y2="152" class="ray"/>
+  <line x1="20" y1="100" x2="48" y2="100" class="ray"/>
+
+  <!-- Seta principal (expansão direcionada) -->
+  <path d="M100 100 L145 65" class="ray"/>
+  <path d="M145 65 L138 85" class="ray"/>
+  <path d="M145 65 L125 58" class="ray"/>
+
+  <!-- Forma abstrata de N -->
+  <path d="M78 122 L92 82 L108 118 L122 78" class="n-shape"/>
+</svg>
