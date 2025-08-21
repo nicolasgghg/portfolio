@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Bernardino Nicolas | Portfolio",
   description: "Bernardino Nicolas Portfolio",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/favIcon.svg",
   },
 };
 
